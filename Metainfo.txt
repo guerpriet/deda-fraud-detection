@@ -1,0 +1,17 @@
+Name of QuantLet: Fraud_Detection_EndToEnd
+
+Published in: Institute for Digital Assets (IDA)
+
+Description: 'An end-to-end machine learning pipeline developed to detect fraudulent financial transactions. The project analyzes a dataset of 6.3 million transactions, addressing high class imbalance (0.13% fraud rate) by employing optimized sampling and threshold tuning (0.91 confidence threshold). It utilizes an XGBoost model optimized for the Precision-Recall trade-off to provide high-quality, actionable fraud alerts for investigative teams, moving beyond simple accuracy metrics.'
+
+Keywords: 'fraud detection, machine learning, XGBoost, precision-recall, imbalance, finance, pipeline, streamlit, classification, bank, anomaly detection'
+
+Author: SINGH, HAERDLE
+
+Submitted: 29 June 2026
+
+Datafiles: 'fraud_detection_pipeline.pickle'
+
+Output: 'fraud_detection.py, analysis_model.ipynb'
+
+Example: 'fraud_detection.py - Streamlit application allowing users to input transaction details (type, amount, balances) and receive real-time fraud probability predictions based on the deployed XGBoost pipeline.'
